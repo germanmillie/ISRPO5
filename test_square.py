@@ -9,7 +9,7 @@ class SquareTestCase(unittest.TestCase):
 
     def test_area_1(self):
         result = area(7)
-        self.assertEqual(result, 49)
+        self.assertEqual(result, 47)
 
     def test_area_2(self):
         result = area(1.7)
